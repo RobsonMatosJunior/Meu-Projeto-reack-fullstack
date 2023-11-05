@@ -35,6 +35,6 @@ Sinta-se à vontade para contribuir para este projeto. Se você deseja fazer mel
 
 ## Contato
 
-Se você tiver alguma dúvida ou precisar de suporte, entre em contato conosco em [seu-email@example.com](mailto:robsonjr819@gmail.com).
+Se você tiver alguma dúvida ou precisar de suporte, entre em contato conosco em [robsonjr819@gmail.com](mailto:robsonjr819@gmail.com).
 
 Aproveite o projeto!
