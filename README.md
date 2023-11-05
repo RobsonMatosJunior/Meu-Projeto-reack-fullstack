@@ -1,6 +1,6 @@
 # Meu Projeto Web
 
-Bem-vindo ao meu projeto web! Este é um exemplo de um arquivo README.md que descreve o projeto e fornece informações importantes para os desenvolvedores e usuários.
+Bem-vindo ao meu projeto React Fullstack! Este é um exemplo de um arquivo README.md que descreve o projeto e fornece informações importantes para os desenvolvedores e usuários.
 
 ## Descrição
 
