@@ -3,23 +3,25 @@
     justify-content: space-around;
     align-items: center;
     align-content:center;
-    height: 504px;
+    height: 1000px;
     background: linear-gradient(to bottom, #1E1E1E 50%, #FFFFFF 50%);
 }
 
 
 .cards-layout{
     width: 200px;
-    height: 231px;
+    height: 270px;
     border-radius: 20px;
     border: 1px solid #000;
     background-color: #FFFFFF;
+    align-items:center;
+    text-align: center;
 }
 
 .project-info img{
     width: 80px;
     height: 82.715px;
-    margin: 10px;
+
 }
 
 
@@ -79,11 +81,6 @@
     display: flex;
     width: 550px;
     height: 272px;
-}
-
-.card-style{
-    align-items:center;
-    text-align: center;
 }
 
 .card-style img{

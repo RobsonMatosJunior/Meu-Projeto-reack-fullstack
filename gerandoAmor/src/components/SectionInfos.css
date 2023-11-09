@@ -1,8 +1,12 @@
+section{
+    width: 100%;
+}
 .background-div {
+    margin: 0;
     border: 1px;
-    background-image: URL(/background_image.png);
+    background-image: URL(../../../public/background_image.png);
     background-size: cover;
-   
+    width:100% ;
 }
 
 .infos{
@@ -46,7 +50,7 @@
 @media(max-width:1200px){
    
     .background-div {
-        background-image: URL(/background_image.png);
+        background-image: URL(../../../public/background_image.png);
         background-size: cover;
         background-image: 100%;
 
