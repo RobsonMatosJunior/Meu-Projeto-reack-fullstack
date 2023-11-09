@@ -55,7 +55,7 @@ const SectionCarsd =() => {
                     </div>                    
                 </div>
                 <div>
-                    <img className="card-image" src=""/>
+                    <img className="card-image" src="../images/313300754_573181067944716_5191642201732057972_n 1.png"/>
                 </div>
             </div>
         </section>
