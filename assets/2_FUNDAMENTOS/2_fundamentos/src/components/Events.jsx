@@ -3,6 +3,8 @@ const Events =() => {
     const handMyEvent = (e) => {
         console.log(e);
 
+        console.log("Ativou o evento")
+
     };
 
     return(
@@ -14,4 +16,4 @@ const Events =() => {
     );
 };
 
-export default Events;
+export default Events
