@@ -1,3 +1,6 @@
+//Import Style
+import style from "./Events.module.css"
+
 const Events =() => {
 
     const handMyEvent = (e) => {
@@ -10,8 +13,31 @@ const Events =() => {
     return(
         <div>
             <div>
-                <button onClick={handMyEvent} >Clique Aqui</button>
+                <button className={style.btns} onClick={handMyEvent}>
+                    Clique Aqui
+                </button>
+
             </div>
+
+            <div>
+
+                <button className={style.btns} onClick={() => console.log("Clicou!")}>
+                    Clique aqui também!
+                </button>
+
+            </div>
+            <div>
+
+                <button className={style.btns} onClick={() => {
+                    if(true) {
+                        console.log("Isso não deveria existir")
+                    }
+                } } >
+                    Clique aqui por favor
+                </button>
+                
+            </div>
+
         </div>
     );
 };
