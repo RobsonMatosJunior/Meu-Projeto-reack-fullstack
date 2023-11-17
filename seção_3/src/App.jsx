@@ -1,5 +1,11 @@
-import { useState } from 'react'
+//Import Pages
+import ManageData from './Components/ManageData'
+
+//Import CSS
 import './App.css'
+
+// Import Img
+
 
 function App() {
   
@@ -7,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Avançando em React</h1>
+        <ManageData />
       </div>
     </>
   )
