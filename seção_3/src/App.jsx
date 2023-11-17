@@ -1,5 +1,6 @@
 //Import Pages
 import ManageData from './Components/ManageData'
+import ListRender from './Components/ListRender'
 
 //Import CSS
 import './App.css'
@@ -14,6 +15,9 @@ function App() {
     <>
       <div>
         <ManageData />
+      </div>
+      <div>
+        <ListRender />
       </div>
     </>
   )
