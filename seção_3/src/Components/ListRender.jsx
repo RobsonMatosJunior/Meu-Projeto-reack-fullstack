@@ -11,7 +11,7 @@ const ListRender = () => {
     const [list] = useState(["Gabriel", "Julho", "Natalia", "João Pedro"]);
 
 
-    const [users] = useState ([
+    const [users, setUsers] = useState ([
         {id:1, name: "Gabriel", age: 29},
         {id:2, name:"Julho", age:30},
         {id:3,name:"Natalia",age:45},
@@ -19,6 +19,17 @@ const ListRender = () => {
         {id:5, name: "Otero", age: 74},
     ]);
   
+    const deleteRandom = () => {
+
+        const randomNumber = Math.floor(Math.random() * 6);
+        
+        setUsers((prevUsers)=>  {
+            console.log(prevUsers);
+
+            return prevUsers.filter((users) => randomNumber !== users.id)
+        });
+    };
+
     return (
 
         <section>
@@ -30,6 +41,7 @@ const ListRender = () => {
                         </li>
                     ))}
                 </ul>
+                <button onClick={deleteRandom}> Delete random User</button>
             </div>
 
             <div>
