@@ -44,13 +44,6 @@ const ListRender = () => {
                 <button onClick={deleteRandom}> Delete random User</button>
             </div>
 
-            <div>
-                <ul>
-                    {list.map((item, i) => (
-                        <li key={i}>{item}</li>
-                    ))}
-                </ul>
-            </div>
         </section>
   )
 }
