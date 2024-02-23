@@ -1,15 +1,10 @@
 import { useState } from "react"
 
-useState
 //Imports
 
 //Import CSS
 
-
 const ListRender = () => {
-
-    const [list] = useState(["Gabriel", "Julho", "Natalia", "João Pedro"]);
-
 
     const [users, setUsers] = useState ([
         {id:1, name: "Gabriel", age: 29},
@@ -20,18 +15,16 @@ const ListRender = () => {
     ]);
   
     const deleteRandom = () => {
-
-        const randomNumber = Math.floor(Math.random() * 6);
-        
+        const randomNumber = Math.floor(Math.random() * 5) + 1;
+            
         setUsers((prevUsers)=>  {
             console.log(prevUsers);
-
+    
             return prevUsers.filter((users) => randomNumber !== users.id)
         });
     };
 
     return (
-
         <section>
             <div>
                 <ul>
@@ -43,12 +36,8 @@ const ListRender = () => {
                 </ul>
                 <button onClick={deleteRandom}> Delete random User</button>
             </div>
-
         </section>
-  )
+    )
 }
 
 export default ListRender
-
-
-
